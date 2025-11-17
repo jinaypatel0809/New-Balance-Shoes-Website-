@@ -94,6 +94,10 @@
     opacity: 0.2; /* hides/dims the hero background */
     pointer-events: none; /* prevents clicks */
   }
+
+  .search-box{
+    display: none;
+  }
 }
 
 @media (max-width: 600px) {
