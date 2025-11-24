@@ -482,3 +482,43 @@ body {
     background: #f2f2f2;
 }
 
+.container {
+    display: flex;
+    width: 100%;
+    height: 350px; /* FIXED SAME HEIGHT FOR ALL IMAGES */
+}
+
+.box {
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   /* Keeps image same height without distortion */
+}
+
+.box h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .box {
+        height: 250px;   /* Same height on mobile */
+    }
+}
