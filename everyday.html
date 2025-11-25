@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,81 +44,31 @@
     });
   </script>
 
-  <div class="container">
-
-    <a href="shoes.html" class="box">
-        <img src="https://www.newbalance.com/dw/image/v2/AAGI_PRD/on/demandware.static/-/Library-Sites-NBUS-NBCA/default/dwd70231c2/images/page-designer/2025/Wayfinding/NB-4905_Multi_Tile_Desktop_3up_Men_Shoes2.jpg" alt="Shoes">
-        <h2>Shoes</h2>
-    </a>
-
-    <a href="clothing.html" class="box">
-        <img src="https://www.newbalance.com/dw/image/v2/AAGI_PRD/on/demandware.static/-/Library-Sites-NBUS-NBCA/default/dw511734ef/images/page-designer/2025/Wayfinding/NB-4905_Multi_Tile_Desktop_3up_Men_Clothing1.jpg" alt="Clothing">
-        <h2>Clothing</h2>
-    </a>
-
-    <a href="accessories.html" class="box">
-        <img src="https://www.newbalance.com/dw/image/v2/AAGI_PRD/on/demandware.static/-/Library-Sites-NBUS-NBCA/default/dw088669ba/images/page-designer/2025/Wayfinding/NB-4905_Multi_Tile_Desktop_3up_Men_Accessories.jpg" alt="Accessories">
-        <h2>Accessories</h2>
-    </a>
-
-</div>
-
-  <!-- SORT DROPDOWN SECTION -->
-  <div class="top-bar">
-    <div class="sort-dropdown">
-      <button class="sort-btn" onclick="toggleDropdown()">
-        Sort
-        <span class="arrow">▾</span>
-      </button>
-
-      <ul class="dropdown-menu" id="dropdownMenu">
-        <li><a href="./New_Arrival(New).html">New Arrivals</a></li>
-        <li><a href="#">Price: Low to High</a></li>
-        <li><a href="#">Price: High to Low</a></li>
-        <li><a href="#">Most Popular</a></li>
-        <li><a href="#">Featured</a></li>
-        <li><a href="#">Availability</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <script>
-    function toggleDropdown() {
-      document.getElementById("dropdownMenu").classList.toggle("show");
-    }
-    window.onclick = function (e) {
-      if (!e.target.matches('.sort-btn') && !e.target.matches('.arrow')) {
-        document.getElementById("dropdownMenu").classList.remove("show");
-      }
-    }
-  </script>
+  
 
   <!-- Product 1 -->
   <div class="product-section">
     <div class="product-card">
       <img src="https://nb.scene7.com/is/image/NB/m1080k14_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
         alt="High Pile Printed Jacket" class="product-img" onclick="window.location.href='product1.html'">
-      <p class="new">Best seller</p>
       <h3>Fresh Foam X 1080v14</h3>
       <p class="category">Men's Running</p>
-      <p class="price">$110.49</p>
+      <p class="price">$110.99</p>
     </div>
 
     <!-- Product 2 -->
     <div class="product-card">
-      <img src="https://nb.scene7.com/is/image/NB/ml574evw_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
+      <img src="https://nb.scene7.com/is/image/NB/mfcxla5_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
         alt="Made in USA 990v6" class="product-img" onclick="window.location.href='product2.html'">
-      <p class="new">Best seller</p>
-      <h3>574 Core</h3>
-      <p class="category">Men's Lifestyle</p>
-      <p class="price">$79.99</p>
+      <h3>FuelCell Rebel v5</h3>
+      <p class="category">Men's Running</p>
+      <p class="price">$144.99</p>
     </div>
 
     <!-- Product 3 -->
     <div class="product-card">
       <img src="https://nb.scene7.com/is/image/NB/m880m15_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
         alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
-      <p class="new">Back in stock</p>
       <h3>Fresh Foam X 880v15</h3>
       <p class="category">Men's Running</p>
       <p class="price">$149.99</p>
@@ -125,184 +76,167 @@
 
     <!-- Product 4 -->
     <div class="product-card">
-      <img src="https://nb.scene7.com/is/image/NB/m990gl6_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
-        alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
-      <p class="new">Best seller</p>
-      <h3>Made in USA 990v6</h3>
-      <p class="category">Men's Lifestyle</p>
-      <p class="price">$199.99</p>
-    </div>
-
-    <!-- Product 5 -->
-    <div class="product-card">
-      <img src="https://nb.scene7.com/is/image/NB/mr530asm_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
-        alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
-      <p class="new">Best seller</p>
-      <h3>530</h3>
-      <p class="category">Unisex Lifestyle</p>
-      <p class="price">$109.99</p>
-    </div>
-
-    <!-- Product 6 -->
-    <div class="product-card">
-      <img src="https://nb.scene7.com/is/image/NB/u9060bpm_nb_02_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
-        alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
-      <p class="new">Best seller</p>
-      <h3>9060</h3>
-      <p class="category">Unisex Lifestyle</p>
-      <p class="price">$159.99</p>
-    </div>
-
-    <!-- Product 7 -->
-    <div class="product-card">
-      <img src="https://nb.scene7.com/is/image/NB/u9060ccc_nb_16_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
-        alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
-      <p class="new">Best seller</p>
-      <h3>9060</h3>
-      <p class="category">Unisex Lifestyle</p>
-      <p class="price">$159.99</p>
-    </div>
-
-    <!-- Product 8 -->
-    <div class="product-card">
-      <img src="https://nb.scene7.com/is/image/NB/u740cr2_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
-        alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
-      <p class="new">Best seller</p>
-      <h3>740</h3>
-      <p class="category">Unisex Lifestyle</p>
-      <p class="price">$89.99</p>
-    </div>
-
-    <!-- Product 9 -->
-    <div class="product-card">
-      <img src="https://nb.scene7.com/is/image/NB/u204lmmd_nb_03_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
-        alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
-      <p class="new">New</p>
-      <h3>204L</h3>
-      <p class="category">Unisex Lifestyle</p>
-      <p class="price">$119.99</p>
-    </div>
-
-    <!-- Product 10 -->
-    <div class="product-card">
-      <img src="https://nb.scene7.com/is/image/NB/mfcxla5_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
-        alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
-      <p class="new">Back in stock</p>
-      <h3>FuelCell Rebel v5</h3>
-      <p class="category">Men's Running</p>
-      <p class="price">$144.99</p>
-    </div>
-
-    <!-- Product 11 -->
-    <div class="product-card">
       <img src="https://nb.scene7.com/is/image/NB/m1540bk4_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
         alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
-      <p class="new">Extended widths available</p>
       <h3>Fresh Foam X 1540 v4 Made in USA</h3>
       <p class="category">Men's Running</p>
       <p class="price">$199.99</p>
     </div>
 
-    <!-- Product 12 -->
+    <!-- Product 5 -->
     <div class="product-card">
       <img src="https://nb.scene7.com/is/image/NB/mmorlb6_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
         alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
-      <p class="new">Extended widths available</p>
       <h3>Fresh Foam X More v6</h3>
       <p class="category">Men's Running</p>
       <p class="price">$159.99</p>
     </div>
 
+    <!-- Product 6 -->
+    <div class="product-card">
+      <img src="https://nb.scene7.com/is/image/NB/mrcxce4_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
+        alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
+      <h3>FuelCell SuperComp Trainer v3</h3>
+      <p class="category">Men's Running</p>
+      <p class="price">$151.99</p>
+    </div>
+
+    <!-- Product 7 -->
+    <div class="product-card">
+      <img src="https://nb.scene7.com/is/image/NB/m86014e_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
+        alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
+      <h3>Fresh Foam X 860v14</h3>
+      <p class="category">Men's Running</p>
+      <p class="price">$139.99</p>
+    </div>
+
+    <!-- Product 8 -->
+    <div class="product-card">
+      <img src="https://nb.scene7.com/is/image/NB/m108014d_nb_16_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
+        alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
+      <h3>Fresh Foam X 1080v14</h3>
+      <p class="category">Men's Running</p>
+      <p class="price">$110.49</p>
+    </div>
+
+    <!-- Product 9 -->
+    <div class="product-card">
+      <img src="https://nb.scene7.com/is/image/NB/mfcxpb5_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
+        alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
+      <h3>FuelCell Rebel v5</h3>
+      <p class="category">Men's Running</p>
+      <p class="price">$144.99</p>
+    </div>
+
+    <!-- Product 10 -->
+    <div class="product-card">
+      <img src="https://nb.scene7.com/is/image/NB/m88015b_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
+        alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
+      <h3>Fresh Foam X 880v15</h3>
+      <p class="category">Men's Running</p>
+      <p class="price">$149.99</p>
+    </div>
+
+    <!-- Product 11 -->
+    <div class="product-card">
+      <img src="https://nb.scene7.com/is/image/NB/mbalce1_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
+        alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
+      <h3>Fresh Foam X Balos v1</h3>
+      <p class="category">Men's Running</p>
+      <p class="price">$159.99</p>
+    </div>
+
+    <!-- Product 12 -->
+    <div class="product-card">
+      <img src="https://nb.scene7.com/is/image/NB/m880gb15_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
+        alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
+      <h3>Fresh Foam X 880v15 GORE-TEX</h3>
+      <p class="category">Men's Running</p>
+      <p class="price">$174.99</p>
+    </div>
+
     <!-- Product 13 -->
     <div class="product-card">
-      <img src="https://nb.scene7.com/is/image/NB/u9060iaa_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
+      <img src="https://nb.scene7.com/is/image/NB/mfcxny5_nb_14_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
         alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
-      <p class="new">Extended widths available</p>
-      <h3>9060 X</h3>
-      <p class="category">Unisex Lifestyle</p>
-      <p class="price">$119.99</p>
+      <h3>TCS NYC Marathon FuelCell Bebel v5</h3>
+      <p class="category">Men's Running</p>
+      <p class="price">$127.99</p>
     </div>
 
     <!-- Product 14 -->
     <div class="product-card">
-      <img src="https://nb.scene7.com/is/image/NB/mt53974wt_nb_31_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
+      <img src="https://nb.scene7.com/is/image/NB/m880c15_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
         alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
-      <p class="new">New</p>
-      <h3>Shohei Ohtani Unicorn T-Shirt 2025</h3>
-      <p class="category">Men's Shirts</p>
-      <p class="price">$39.99</p>
+      <h3>Fresh Foam X 880v15</h3>
+      <p class="category">Men's Running</p>
+      <p class="price">$149.99</p>
     </div>
 
     <!-- Product 15 -->
     <div class="product-card">
-      <img src="https://nb.scene7.com/is/image/NB/u992bk_nb_02_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
+      <img src="https://nb.scene7.com/is/image/NB/m860w14_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
         alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
-      <p class="new">Back in stock</p>
-      <h3>Made in USA 992 Core</h3>
-      <p class="category">Unisex Lifestyle</p>
-      <p class="price">$199.99</p>
+      <h3>Fresh Foam X 860v14</h3>
+      <p class="category">Men's Running</p>
+      <p class="price">$139.99</p>
     </div>
 
     <!-- Product 16 -->
     <div class="product-card">
-      <img src="https://nb.scene7.com/is/image/NB/u471ra_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
+      <img src="https://nb.scene7.com/is/image/NB/m108014s_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
         alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
-      <p class="new">Back in stock</p>
-      <h3>471</h3>
-      <p class="category">Unisex Lifestyle</p>
-      <p class="price">$119.99</p>
+      <h3>Fresh Foam X 1080v14</h3>
+      <p class="category">Men's Running</p>
+      <p class="price">$110.49</p>
     </div>
 
     <!-- Product 17 -->
     <div class="product-card">
-      <img src="https://nb.scene7.com/is/image/NB/u2002dxa_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
+      <img src="https://nb.scene7.com/is/image/NB/mfcrrcu2_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
         alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
-      <p class="new">New</p>
-      <h3>2002DX</h3>
-      <p class="category">Unisex Lifestyle</p>
-      <p class="price">$169.99</p>
+      <h3>FuelCell SuperComp Pacer v2</h3>
+      <p class="category">Men's Running</p>
+      <p class="price">$159.99</p>
     </div>
 
     <!-- Product 18 -->
     <div class="product-card">
-      <img src="https://nb.scene7.com/is/image/NB/pl4040g8_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
+      <img src="https://nb.scene7.com/is/image/NB/mkaircb1_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
         alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
-      <p class="new">New</p>
-      <h3>FuelCell 4040 v8 Molded</h3>
-      <p class="category">Men's Baseball</p>
-      <p class="price">$99.99</p>
+      <h3>Fresh Foam X kaiha Road</h3>
+      <p class="category">Men's Running</p>
+      <p class="price">$104.99</p>
     </div>
 
     <!-- Product 19 -->
     <div class="product-card">
-      <img src="https://nb.scene7.com/is/image/NB/mrceldi5_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
+      <img src="https://nb.scene7.com/is/image/NB/mfcprca5_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
         alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
-      <p class="new">New</p>
-      <h3>District Vision x New Balance Sc Elite V5</h3>
+      <h3>FuelCell Propel v5</h3>
       <p class="category">Men's Running</p>
-      <p class="price">$294.99</p>
+      <p class="price">$119.99</p>
     </div>
 
     <!-- Product 20 -->
     <div class="product-card">
-      <img src="https://nb.scene7.com/is/image/NB/mj53503wdl_nb_70_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
+      <img src="https://nb.scene7.com/is/image/NB/m680cs8_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
         alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
-      <p class="new">New</p>
-      <h3>High Pile Printed Jacket</h3>
-      <p class="category">Men's Jackets & Vests</p>
-      <p class="price">$149.99</p>
+      <h3>Fresh Foam 680v8</h3>
+      <p class="category">Men's Running</p>
+      <p class="price">$67.99</p>
     </div>
 
     <!-- Product 21 -->
     <div class="product-card">
-      <img src="https://nb.scene7.com/is/image/NB/urc56ffa_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
+      <img src="https://nb.scene7.com/is/image/NB/m108014o_nb_05_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
         alt="NB Numeric 770" class="product-img" onclick="window.location.href='product3.html'">
-      <p class="new">New</p>
-      <h3>RC56</h3>
-      <p class="category">Unisex Lifestyle</p>
-      <p class="price">$164.99</p>
+      <h3>Fresh Foam X 1080v14</h3>
+      <p class="category">Men's Running</p>
+      <p class="price">$110.49</p>
     </div>
   </div>
+
 
   <footer class="footer">
     <div class="footer-top">
